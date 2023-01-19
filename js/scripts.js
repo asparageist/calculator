@@ -23,12 +23,7 @@ const added = (add(number1,number2));
 const subtracted = (subtract(number1,number2));
 const multiplied = (multiply(number1,number2));
 const divided = (divide(number1,number2));
-const output = ("Your numbers equal " + add(number1,number2) + " when added, " + subtract(number1,number2) + " when subtracted, " + multiply(number1,number2) + " when multiplied, " + divide(number1,number2) + " when divided.");
+const output = (number1 + " + " + number2 + " = " + add(number1,number2) + ", " + number1 + " - " + number2 + " = " + subtract(number1,number2) + ", " + number1 + " * " + number2 + " = " + multiply(number1,number2) + ", " + number1 + " / " + number2 + " = " +  divide(number1,number2));
 
 
 window.alert(output);
-
-// window.alert(add("when added equal ",number1,number2));
-//  subtract("when subtracted equal ",number1,number2),
-//  multiply("when multiplied equal ",number1,number2),
-//  divide("when divided equal ",number1,number2));
